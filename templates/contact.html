@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- start page-title-wrapper -->
+<div class="page-title">
+    <div class="container">
+        <h1>Contacto</h1>
+    </div>
+</div>
+<!-- end page-title-wrapper -->
+
+
+<!-- start of contact-section -->
+<section class="contact-section">
+    <div class="contact-map" id="map">  
+        <iframe width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.3825890858848!2d-90.54945151190485!3d14.56882859734404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a13471eaec83%3A0x42a39f89b22b6162!2s46%20Calle%2C%20Cdad.%20de%20Guatemala!5e0!3m2!1ses!2sgt!4v1598024823845!5m2!1ses!2sgt"></iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6">
+                <div class="contact-form">
+                    <h3>Formulario de Contacto</h3>
+                    <ul>
+                        <li><i class="fa fa-home"></i>46 calle 11-37 zona 12, Guatemala, Guatemala</li>
+                        <li><i class="fa fa-phone"></i>(502) 54120779</li>
+                    </ul>
+                    <h4>Contáctanos y con gusto atenderemos tus dudas y comentarios.</h4>
+                    <form class="form contact-validation-active" id="contact-form">
+                        <div>
+                            <input type="text" name="name" class="form-control" placeholder="Nombre completo">
+                        </div>
+                        <div>
+                            <input type="email" name="email" class="form-control" placeholder="Correo electrónico">
+                        </div>
+                        <div>
+                            <textarea name="note" class="form-control" placeholder="Su mensaje"></textarea>
+                        </div>
+                        <div class="submit">
+                            <button type="submit">Enviar</button>
+                            <span id="loader"><img src="{% static 'images/contact-ajax-loader.gif' %}" alt="Loader"></span>
+                        </div>
+                        <div class="error-handling-messages">
+                            <div id="success">Muchas gracias por su mensaje, en breve estaremos comunicándonos  odonos con usted.</div>
+                            <div id="error"> Hubo un error al enviar su mensaje, por favor intente de nuevo más tarde. </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section>
+<!-- end of contact-section -->
+{% endblock %}

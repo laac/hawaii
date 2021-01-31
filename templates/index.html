@@ -1,0 +1,563 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- start of hero -->
+<section class="hero hero-slider-wrapper hero-slider-s1">
+    <div class="hero-slider">
+        <div class="slide">
+            <img src="{% static 'images/slider/slide-1.jpg' %}" alt class="slider-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-10 col-md-offset-1 slide-caption">
+                        <h1 class="slide-title">Construction Begins on New Huntington Beach Power Station</h1>
+                        <h5 class="slide-subtitle">Industry Segment: Power | 2 min read</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="{% static 'images/slider/slide-2.jpg' %}" alt class="slider-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-10 col-md-offset-1 slide-caption">
+                        <h1 class="slide-title">Construction Begins on New Huntington Beach Power Station</h1>
+                        <h5 class="slide-subtitle">Industry Segment: Power | 2 min read</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="{% static 'images/slider/slide-3.jpg' %}" alt class="slider-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-10 col-md-offset-1 slide-caption">
+                        <h1 class="slide-title">Construction Begins on New Huntington Beach Power Station</h1>
+                        <h5 class="slide-subtitle">Industry Segment: Power | 2 min read</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of hero slider -->
+
+
+<!-- start of about-us -->
+<section class="about-us section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-6">
+                <div class="section-title-s1">
+                    <span>Acerca de nosotros</span>
+                    <h2>Fabricación, importación y exportación de <span>equipo de producción</span> </h2>
+                </div>
+                <div class="about-details">
+                    <p>Somos una empresa fundada en Guatemala en el año 2005;
+                        dedicada a la compra, venta, exportación e importación de
+                        productos y soluciones para diversas industrias.</p>
+                    <ul>
+                        <li>Distribuira Hawaii tiene como misión desarrollar soluciones personalizadas y comercializar productos de alta calidad para proteger al usuario en el área agroindustrial.</li>
+                        <li>Nuestra visión es ser una empresa líder referente en Centro América en el área de seguridad industrial y señalización vial, innovando día con día nuestros productos, adelantándonos y adaptándonos a las necesidades de nuestros clientes.</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col col-md-6 about-image-col">
+                <div class="img-holder">
+                    <img src="{% static 'images/about-us/img-1.jpg' %}" alt class="img img-responsive">
+                    <img src="{% static 'images/about-us/img-2.jpg' %}" alt class="img img-responsive">
+                    <img src="{% static 'images/about-us/img-3.jpg' %}" alt class="img img-responsive">
+                </div>
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section>
+<!-- end of about-us -->
+
+
+<!-- start of services-section 
+<section class="services-section section-padding">
+    <div class="container">
+        <div class="row section-title-s2">
+            <div class="col col-lg-3">
+                <h2><span>Services</span> We Provide</h2>
+            </div>
+            <div class="col col-lg-7">
+                <p>Mauris ornare tellus et cursus volutpat. Praesent neque justo, dapibus id vestibulum nec, accumsan
+                    vitae sapien. Curabitur tempus tortor sit amet sapien venenatis, vitae blandit diam pharetra. Donec
+                    vel diam id nisl feugiat fringilla.</p>
+            </div>
+        </div>  
+
+        <div class="row services-grids">
+            <div class="col col-lg-4 col-xs-6">
+                <div class="grid">
+                    <div class="bg-image">
+                        <img src="{% static 'images/services/img-1.jpg' %}" alt>
+                    </div>
+                    <span class="icon"><i class="fi flaticon-construction"></i></span>
+                    <div class="service-details">
+                        <h3><a href="#">Iron Welding</a></h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-xs-6">
+                <div class="grid">
+                    <div class="bg-image">
+                        <img src="{% static 'images/services/img-2.jpg' %}" alt>
+                    </div>
+                    <span class="icon"><i class="fi flaticon-construction"></i></span>
+                    <div class="service-details">
+                        <h3><a href="#">Petrolium Refinery</a></h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-xs-6">
+                <div class="grid">
+                    <div class="bg-image">
+                        <img src="{% static 'images/services/img-3.jpg' %}" alt>
+                    </div>
+                    <span class="icon"><i class="fi flaticon-construction"></i></span>
+                    <div class="service-details">
+                        <h3><a href="#">Oil Plantation</a></h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-xs-6">
+                <div class="grid">
+                    <div class="bg-image">
+                        <img src="{% static 'images/services/img-4.jpg' %}" alt>
+                    </div>
+                    <span class="icon"><i class="fi flaticon-construction"></i></span>
+                    <div class="service-details">
+                        <h3><a href="#">Petrochemical Lab</a></h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-xs-6">
+                <div class="grid">
+                    <div class="bg-image">
+                        <img src="{% static 'images/services/img-5.jpg' %}" alt>
+                    </div>
+                    <span class="icon"><i class="fi flaticon-construction"></i></span>
+                    <div class="service-details">
+                        <h3><a href="#">Bridge Construction</a></h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-xs-6">
+                <div class="grid">
+                    <div class="bg-image">
+                        <img src="{% static 'images/services/img-6.jpg' %}" alt>
+                    </div>
+                    <span class="icon"><i class="fi flaticon-construction"></i></span>
+                    <div class="service-details">
+                        <h3><a href="#">Industrial Automation</a></h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+ -->
+
+
+<!-- start of testimonial-section 
+<section class="testimonial-section section-padding">
+    <div class="container">
+        <div class="row section-title-s3">
+            <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2>What Our <span>Customers</span> Say</h2>
+                <p>Mauris ornare tellus et cursus volutpat. Praesent neque justo, dapibus id vestibulum nec, accumsan
+                    vitae sapien. Curabitur tempus tortor sit amet sapien.</p>
+            </div>
+        </div> <!-- end section-title 
+
+        <div class="row">
+            <div class="col col-xs-12">
+                <div class="testimonials-slider dots-style-1">
+                    <div class="grid">
+                        <div class="client-quote">
+                            <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                        </div>
+                        <div class="client-info">
+                            <div class="client-pic">
+                                <img src="{% static 'images/testimonials/img-1.jpg' %}" alt>
+                            </div>
+                            <div class="client-details">
+                                <h4>Marcus Finn</h4>
+                                <span>CEO, Axura</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="client-quote">
+                            <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                        </div>
+                        <div class="client-info">
+                            <div class="client-pic">
+                                <img src="{% static 'images/testimonials/img-1.jpg' %}" alt>
+                            </div>
+                            <div class="client-details">
+                                <h4>Marcus Finn</h4>
+                                <span>CEO, Axura</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="client-quote">
+                            <p>Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                        </div>
+                        <div class="client-info">
+                            <div class="client-pic">
+                                <img src="{% static 'images/testimonials/img-1.jpg' %}" alt>
+                            </div>
+                            <div class="client-details">
+                                <h4>Marcus Finn</h4>
+                                <span>CEO, Axura</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end row 
+    </div> <!-- end container 
+</section>
+<!-- end of testimonial-section -->
+
+
+<!-- start of latest-projects 
+<section class="latest-projects section-padding">
+    <div class="container">
+        <div class="row section-title-s3">
+            <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2>Our latest <span>Projects</span></h2>
+                <p>Mauris ornare tellus et cursus volutpat. Praesent neque justo, dapibus id vestibulum nec, accumsan
+                    vitae sapien. Curabitur tempus tortor sit amet sapien.</p>
+            </div>
+        </div> <!-- end section-title 
+
+        <div class="portfolio gallery-grid">
+            <div class="row">
+                <ul class="portfolio-sorting gallery-button list-inline text-center">
+                    <li><a href="#" data-group="all" class="filter-btn active">All</a></li>
+                    <li><a class="filter-btn" href="#" data-group="people">Factory</a></li>
+                    <li><a class="filter-btn" href="#" data-group="simpsons">Welding</a></li>
+                    <li><a class="filter-btn" href="#" data-group="futurama">Rolling</a></li>
+                </ul>
+                <!--end portfolio sorting 
+
+                <div id="lightBox" class="gallery-wrapper">
+                    <ul class="portfolio-items courses list-unstyled" id="grid">
+                        <li class="col-md-3 col-sm-6" data-groups='["simpsons"]'>
+                            <figure class="portfolio-item gallery-caption grid">
+
+                                <div class="inner">
+                                    <a href="{% static 'images/latest-projects/img-1.jpg' %}" class="fancybox">
+                                        <img src="{% static 'images/latest-projects/img-1.jpg' %}" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="col-md-3 col-sm-6" data-groups='["people"]'>
+                            <figure class="portfolio-item gallery-caption grid">
+
+                                <div class="inner">
+                                    <a href="{% static 'images/latest-projects/img-2.jpg' %}" class="fancybox">
+                                        <img src="{% static 'images/latest-projects/img-2.jpg' %}" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="col-md-3 col-sm-6" data-groups='["futurama"]'>
+                            <figure class="portfolio-item gallery-caption grid">
+
+                                <div class="inner">
+                                    <a href="{% static 'images/latest-projects/img-3.jpg' %}" class="fancybox">
+                                        <img src="{% static 'images/latest-projects/img-3.jpg' %}" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="col-md-3 col-sm-6" data-groups='["futurama"]'>
+                            <figure class="portfolio-item gallery-caption grid">
+
+                                <div class="inner">
+                                    <a href="{% static 'images/latest-projects/img-4.jpg' %}" class="fancybox">
+                                        <img src="{% static 'images/latest-projects/img-4.jpg' %}" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="col-md-3 col-sm-6" data-groups='["simpsons"]'>
+                            <figure class="portfolio-item gallery-caption grid">
+
+                                <div class="inner">
+                                    <a href="{% static 'images/latest-projects/img-5.jpg' %}" class="fancybox">
+                                        <img src="{% static 'images/latest-projects/img-5.jpg' %}" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="col-md-3 col-sm-6" data-groups='["people"]'>
+                            <figure class="portfolio-item gallery-caption grid">
+
+                                <div class="inner">
+                                    <a href="{% static 'images/latest-projects/img-6.jpg' %}" class="fancybox">
+                                        <img src="{% static 'images/latest-projects/img-6.jpg' %}" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="col-md-3 col-sm-6" data-groups='["simpsons"]'>
+                            <figure class="portfolio-item gallery-caption grid">
+
+                                <div class="inner">
+                                    <a href="{% static 'images/latest-projects/img-7.jpg' %}" class="fancybox">
+                                        <img src="{% static 'images/latest-projects/img-7.jpg' %}" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="col-md-3 col-sm-6" data-groups='["people"]'>
+                            <figure class="portfolio-item gallery-caption grid">
+
+                                <div class="inner">
+                                    <a href="{% static 'images/latest-projects/img-8.jpg' %}" class="fancybox">
+                                        <img src="{% static 'images/latest-projects/img-8.jpg' %}" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h3><a href="#">Rolling Sheets</a></h3>
+                                </div>
+                            </figure>
+                        </li>
+                    </ul>
+                    <!--end portfolio grid -
+                </div> <!-- gallery-wrapper -
+            </div>
+            <!--end row -->
+        </div>
+    </div> <!-- end container 
+</section>
+<!-- end of latest-projects 
+
+
+<!-- start of faq-blog -->
+<section class="faq-blog section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-5">
+                <div class="section-title-s5">
+                    <h2>Preguntas <span>Frecuentes</span></h2>
+                </div>
+                <div class="panel-group faq-accordion theme-accordion" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                aria-expanded="true">¿Cuáles métodos de pago manejamos?</a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="img-holder">
+                                </div>
+                                <p>El método de pago que manejamos es por medio de transferencia bancaria.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">¿Cuáles son los tipos de envío?</a>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="img-holder">
+                                </div>
+                                <p>En función de la cantidad puede ser despachado por contenedor desde origen o desde Guatemala como carga consolidada.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseThree">¿La garantía tiene condiciones o limitaciones?</a>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="img-holder">
+                                </div>
+                                <p>La garantía cubre únicamente los defectos de fabricación.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseFour">¿Es posible enviar muestras?</a>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="img-holder">
+                                </div>
+                                <p>Sí es posible el envío de muestras, nuestra empresa cubre el valor de los artículos y el solicitante el valor del envío.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-lg-7 blog-col">
+                <div class="section-title-s5">
+                    <h2>Nuestros <span>últimos productos</span></h2>
+                </div>
+
+                <div class="blog">
+                    <div class="grid">
+                        <div class="entry-media">
+                            <img src="{% static 'images/blog/img-1.jpg' %}" alt class="img img-responsive">
+                        </div>
+                        <div class="entry-body">
+                            <h3><a href="#">Approach to Assessing Supply Chain Risk</a></h3>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="entry-media">
+                            <img src="{% static 'images/blog/img-2.jpg' %}" alt class="img img-responsive">
+                        </div>
+                        <div class="entry-body">
+                            <h3><a href="#">Approach to Assessing Supply Chain Risk</a></h3>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section>
+<!-- end of faq-blog -->
+
+
+<!-- start of partners-section -->
+<section class="partners-section">
+    <h2>Nuestros Clientes</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col col-xs-12">
+                <div class="partners-slider">
+                    <div class="grid">
+                        <img src="{% static 'images/partners/img-1.png' %}" alt class="img img-responsive">
+                    </div>
+                    <div class="grid">
+                        <img src="{% static 'images/partners/img-2.jpg' %}" alt class="img img-responsive">
+                    </div>
+                    <div class="grid">
+                        <img src="{% static 'images/partners/img-3.jpg' %}" alt class="img img-responsive">
+                    </div>
+                    <div class="grid">
+                        <img src="{% static 'images/partners/img-4.jpg' %}" alt class="img img-responsive">
+                    </div>
+                    <div class="grid">
+                        <img src="{% static 'images/partners/img-5.jpg' %}" alt class="img img-responsive">
+                    </div>
+                    <div class="grid">
+                        <img src="{% static 'images/partners/img-6.jpg' %}" alt class="img img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section>
+<!-- end of partners-section -->
+
+
+<!-- start of contact-section -->
+<section class="contact-section">
+    <div class="contact-map" id="map">
+        <iframe width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.3825890858848!2d-90.54945151190485!3d14.56882859734404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a13471eaec83%3A0x42a39f89b22b6162!2s46%20Calle%2C%20Cdad.%20de%20Guatemala!5e0!3m2!1ses!2sgt!4v1598024823845!5m2!1ses!2sgt"></iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6">
+                <div class="contact-form">
+                    <h3>Formulario de Contacto</h3>
+                    <ul>
+                        <li><i class="fa fa-home"></i>46 calle 11-37 zona 12, Guatemala, Guatemala</li>
+                        <li><i class="fa fa-phone"></i>(502) 54120779</li>
+                    </ul>
+                    <h4>Contáctanos y con gusto atenderemos tus dudas y comentarios.</h4>
+                    <form class="form contact-validation-active" id="contact-form">
+                        <div>
+                            <input type="text" name="name" class="form-control" placeholder="Nombre completo">
+                        </div>
+                        <div>
+                            <input type="email" name="email" class="form-control" placeholder="Correo electrónico">
+                        </div>
+                        <div>
+                            <textarea name="note" class="form-control" placeholder="Su mensaje"></textarea>
+                        </div>
+                        <div class="submit">
+                            <button type="submit">Enviar</button>
+                            <span id="loader"><img src="{% static 'images/contact-ajax-loader.gif' %}" alt="Loader"></span>
+                        </div>
+                        <div class="error-handling-messages">
+                            <div id="success">Muchas gracias por su mensaje, en breve estaremos comunicándonos  odonos con usted.</div>
+                            <div id="error"> Hubo un error al enviar su mensaje, por favor intente de nuevo más tarde. </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section>
+<!-- end of contact-section -->
+{% endblock %}
